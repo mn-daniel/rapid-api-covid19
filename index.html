@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/jquery.mobile-1.5.0-rc1.min.js"></script>
+  <script src="js/chart.min.js"></script>
+  <script src="js/script.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>RapidAPI - Covid19 API Integration</title>
+  <link href="css/jquery.mobile-1.5.0-rc1.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/png" href="3214036.png">
+</head>
+
+<body>
+  <div class="body">
+    <p class="ld">Loading...</p>
+    <h3>Covid19 Statistics</h3>
+    <p class="t1"></p>
+    <form class="fb">
+        <input id="filterTable-input" data-type="search">
+    </form>
+    <table  
+      data-role="table" id="movie-table" data-filter="true" 
+      data-input="#filterTable-input" class="ui-responsive">
+      <thead>
+        <tr>
+          <th>Continent</th>
+          <th>Country</th>
+          <th>Population</th>
+          <th colspan="6" class="c">Cases</th>
+          <th colspan="3" class="c">Deaths</th>
+          <th colspan="2" class="c">Tests</th>
+        </tr>  
+        <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th>New</th>
+          <th>Active</th>
+          <th>Critical</th>
+          <th>Recovered</th>
+          <th>1M Pop</th>
+          <th>Total</th>
+          <th>New</th>
+          <th>1M Pop</th>
+          <th>Total</th>
+          <th>1M Pop</th>
+          <th>Total</th>
+        </tr>
+      </thead>  
+      <tbody>
+        
+      </tbody>
+      </tbody>
+    </table>
+    <div class="plot">
+      <h3 class='ml'>Covid19 History</h3>
+      <p>Covid-19 History. i = 20, country = China. </p>
+      <div class="pchart">
+        <canvas id="myChart"></canvas>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+h3 {
+  display: none;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.of {
+  overflow: hidden;
+  max-width: 50px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+th {
+  border: 1px solid #000;
+}
+
+table {
+  margin: 10px;
+  width: calc(100% - 20px) !important;
+}
+.c {
+  text-align: center !important;
+}
+td {
+  border: 1px solid #000;
+}
+.fb {
+  width: 300px;
+  margin-left: 30px;
+}
+.t1, .ld, h3 {
+  margin-left: 10px;
+}
+.plot {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#myChart {
+  width:100%;
+  max-width:800px
+}
+.ml {
+  margin-left: 0;
+}
