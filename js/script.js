@@ -4,7 +4,7 @@ $(document).ready(function() {
     type: "GET",
   	"headers": {
   		"x-rapidapi-host": "covid-193.p.rapidapi.com",
-  		"x-rapidapi-key": "18966cecfbmshaed0a1a8dcec9c5p16f4b1jsn7c3ec8c5a5b4"
+  		"x-rapidapi-key": "***"
   	},
     error: function(err){
       $('.body').append("ERROR: ", err);
@@ -45,7 +45,7 @@ $(document).ready(function() {
     type: "GET",
   	"headers": {
   		"x-rapidapi-host": "covid-193.p.rapidapi.com",
-  		"x-rapidapi-key": "18966cecfbmshaed0a1a8dcec9c5p16f4b1jsn7c3ec8c5a5b4"
+  		"x-rapidapi-key": "***"
   	},
     error: function(err){
       $('.body').append("ERROR: ", err);
